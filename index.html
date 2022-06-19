@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
+
+<body class="wrapper" style="background-color:hsl(250, 80%, 30%)">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
         <div class="container">
             <a class="navbar-brand logo" href="#">Hosein Kangavar Nazari</a>
@@ -26,42 +27,79 @@
         </div>
     </nav>
     <main class="page cv-page">
-        <section class="cv-block block-intro border-bottom">
+        <section class="cv-block block-intro">
             <div class="container">
-                <div class="avatar">
-                    <img class="img-fluid rounded-circle" src="assets/img/avatar.jpg">
-                </div>
-                <p style="font-size: 15pt;">
-                    I'm currently an MSc student of Computer Science at IASBS university, and my research interests are IoT, Distributed Systems, and Wireless Communication. My goal is to follow my passion as a Ph.D. student and conduct research on future wireless communication
-                    systems.
-                </p>
-                <div class="container">
+
+                <div class="container" style=" border:1px solid rgb(255, 255, 255) ; background-color: rgba(255, 255, 255, 0.548); padding:20px;   border-radius: 10px;">
+
+                    <div class="avatar">
+                        <img class="img-fluid" src="assets/img/avatar.jpg">
+                    </div>
+                    <p style="margin: 40px; font-size: 13pt; float: left !important;;">
+
+
+                        Hosein Kangavar Nazari is a Ph.D. researcher at Technische Universität Dresden. His research interests are Time-sensitive networking, IoT, and Network Coding. His goal is to contribute to future communication systems and the development of more robust
+                        and efficient communications—the network we deserve.
+                        <br> &nbsp; <br> During his master's, Hosein embarked on research to maintain reliable communication in poor channel conditions for network coding-based communications. In addition, He has participated in developing several IoT
+                        systems as a member of the IoT lab at IASBS university. He also worked as a part-time IoT developer at Sarv Tech company developing HVAC systems for large-scale smart buildings.
+                    </p>
+
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/hosein-kangavar-nazari-7891b0b9/" class="btn btn-outline-primary">Linked In</a> &nbsp;
-                        <a href="https://github.com/Hoseinkangavarnazari" class="btn btn-outline-dark">GitHub</a> &nbsp;
-                        <a href="https://www.researchgate.net/profile/Hosein_Kangavar_Nazari?ev=hdr_xprf" class="btn btn-outline-success">Researchgate</a>
+                        <a href="https://www.linkedin.com/in/hosein-kangavar-nazari-7891b0b9/"><img style="width:55px;" src="https://img.icons8.com/color/96/undefined/linkedin-circled--v1.png" /></a> &nbsp;
+                        <a href="https://github.com/Hoseinkangavarnazari"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEJklEQVRoge3ZS2heRRQH8J8xIalpah82VolWqa9INYIKaqoixUerBRFB8LURxSeRom4VN+JGLBFcuXHlRtGFz6ogqPjoopHWapoarVVbkJpYm/pI/FzM/ezNzfeY+73SRf5wyM29M+ec/8yZmTPnYwHHFo5roK5luBqDOB9r0Ivu5PthHMB3+Bof4yNMNNCHmtGJO/AuplHIKdN4G7cnulqORdiMnyKcjZV9eBRdrSKxAWMNJJCV3bi+mQQ6saWJBLLysjDzDcXJ2NZCEkX5QtgwGoIzhOluNYmijCY+1IWV+GYeSRRlDKtqJdFlfsKpUpjVtEW/eAw4n5XhvCQ2VFH4hBB2l+BJfF+Hc7vwOAaE7OC5Ku2viyWxSPVzoi/TpyshdATvYwjrcLaQonTjnOTdg3gDh/AIjs/oGqhie1RkiG2uoqig/OnbEWOgSttTIuwPVVPeKS7taPhBlcKqCPs/ysxKW0bJrTg1wtjqOp2thDURbfpwS/pFlsjdkcYujGxXCy6KbHdX+p80kWVYH6lkbWS7WjAQ2e5aLCn14WZx2+WksCCbhX78HenLpmKn9IysizT0En6p39+y2IXXItteWXxIE+mP7PxKrEd14NXIdueVejmq+lT+g/a63ayOcyN8KQgJLWbPyPIIA5PCPbvZmIpst6L4kB7dnoiOPULlpZDDqVpwYup5WkhnYKnZlZ//fU4TKTa4Br8lnSeEdKRlBYEEO1L+tDvqcNGf5UKxomQ5a0IY6c+wHXvwq7BD7UnJbc3xfRaGlV8XhxO/CjhY7JBm9K2QoX6IESE1Hxdm5/dEJh0l3Ey0CeHVg8WJrBRSo9OFQ/MGYbH3Mzu0xhMinwsVwTOFMOtNKVua/L1XqHI0A8OJ/ilh0I4kz/vxA/ZiZ0JkvJSCp8Vfhv4Qf4DmwX34N4cfT5VSsj6HgoIwSvdoTP24E8/mJFEQImYOTsBfORUV8KmQ82RvejHoFgZjTw12/5S6F2VH8x2ly5V3Jp2ewUllnDogXHM/ERbhXmF3mUy+r3B0wV6Aq4QRXRzDuATewo3lPm5SfssbFO7g+8u0yYbdY0KFsoje5N1URP8Y2ViJZZvw+0WpjiPJ90uFrbgSicEKNgYbQGa3uZfCORiqoKA4lWuFMDwkrKuDQihtxU3VDOD+Ook8FGFDB74qo+DNGAURaKtgo5pslyMDvwIzJZTMaNz58UANJGZwWV5DL5RRNiEU1vpExGkFnFUDkS21GOrABzkN5TlLOnLqfk++AuAsLJEvlvMiVu9OIc+rC6uFn5Pni8gOnFYXgxR6hJO01US2asBMZNEhpNildrNGE5nB85pc6LgYX5ZxIC9K6RjB5Q3xNALtwhac/h1lXw16fk71H8PDWlNumoM2IW15XYVMtAI2JX03qu9MWsACmoX/ALeEN4NrGxnlAAAAAElFTkSuQmCC"
+                            /></a> &nbsp;
+
+
+                        <a href="https://www.researchgate.net/profile/Hosein_Kangavar_Nazari?ev=hdr_xprf"><img style="width:50px;" src="./assets/img/logoresearchgate.png" /></a>
                         </a>
                     </div>
 
-                    <div style="margin-top: 10px;">
-                        <span "> (<i class="ion-at icon " color:"gray "></i> Personal ) : hkangavarnazari[at]gmail.com
-                    <br> (
-                    <i class="ion-at icon " color: "gray "></i> Academic ) : kangavar.nazari[at]iasbs.ac.ir
-                    </span>
-            </div>
-            </div>
+                    <br>
+                    <img src="./assets/gif/letter.gif" style="width:30px;">
+
+                    <br> Personal: hknstudy[at]gmail.com
 
 
+                    <br> Academic : hosein.kangavar_nazari[at]tu-dresden.de
+
+                </div>
             </div>
+
         </section>
-        <section class="cv-block info ">
+        </div>
+
+        <section class="cv-block info " style="margin-top:-40px;">
             <div class="container ">
-                <div class="work-experience group " id="work-experience ">
-                    <h2 class="text-center ">Education👨‍🎓</h2>
+                <div class="work-experience group " id="work-experience " style=" border:1px solid rgb(255, 255, 255) ; background-color: rgba(255, 255, 255, 0.548); padding:20px;   border-radius: 10px;">
+                    <h2 class="text-center ">Education<img src="./assets/gif/education.gif" style="margin-left: 10px; width:50px;"></h2>
+
+
                     <div class="item ">
+
                         <div class="row ">
                             <div class="col-md-6 ">
-                                <h3>M.Sc. student of Computer Science</h3>
+                                <img style="width:70px; float: left; margin-right: 10px;" src="./assets/img/tud.svg">
+                                <h3>Ph.D. Researcher - Computer Engineering</h3>
+                                <br>
+                                <h4 class="organization ">Technische Universität Dresden (TU Dresden)</h4>
+                            </div>
+                            <div class="col-md-6 ">
+                                <time class="period ">2022-Present</time>
+                            </div>
+
+                        </div>
+
+                        <p class="text-muted "><b>Project:</b> Integration of 5G with Time-Sensitive Networking</p>
+                        <p class="text-muted "><b>Supervisor:</b> <a href="https://scholar.google.com/citations?user=Qz4ZDVwAAAAJ&hl=en " style="all: none; ">Prof. Frank Fitzek</a></p>
+
+                    </div>
+
+                    <div class="item ">
+
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <img style="width:70px; float: left; margin-right: 10px;" src="./assets/img/iasbs.png">
+                                <h3 style="margin-top:7px;">M.Sc. - Computer Science</h3>
                                 <h4 class="organization ">The Institute for Advanced Studies in Basic Sciences</h4>
                             </div>
                             <div class="col-md-6 ">
@@ -70,15 +108,14 @@
                         </div>
                         <p class="text-muted "><b>Thesis title:</b> <a href="assets/HoseinKangavarNazari-Thesis(English).pdf ">Partial Packet Recovery for Network Coding</a></p>
                         <p class="text-muted "><b>Supervisor:</b> <a href="https://iasbs.ac.ir/~pahlevani/ " style="all: none; ">Dr. Peyman Pahlevani</a></p>
-                        <p class="text-muted "><b>GPA:</b> 19.94/20, total 37 credits completed, Rank (1/14)</p>
-                        <p class="text-muted "> <b>Selected Graduate Courses:</b> Coding Theory (A++), Advanced Computer Network (A++),
-                          Computational Data Mining (A++), Real-time systems (A++), Machine Learning (A++), Advanced
-                          Algorithm Design (A+)</p>
+                        <p class="text-muted "><b>GPA:</b> 19.94/20, Rank (1/14)</p>
+                        <p class="text-muted "> <b>Selected Graduate Courses:</b> Coding Theory (A++), Advanced Computer Network (A++), Computational Data Mining (A++), Real-time systems (A++), Machine Learning (A++), Advanced Algorithm Design (A+)</p>
                     </div>
                     <div class="item ">
                         <div class="row ">
                             <div class="col-md-6 ">
-                                <h3>B.Sc. in Information Technology Engineering</h3>
+                                <img style="width:70px; float: left; margin-right: 10px;" src="./assets/img/iasbs.png">
+                                <h3 style="margin-top:7px;">B.Sc. - Information Technology Engineering</h3>
                                 <h4 class="organization ">The Institute for Advanced Studies in Basic Sciences</h4>
 
                             </div>
@@ -88,258 +125,263 @@
                         </div>
                         <p class="text-muted "><b>Thesis title:</b> On the technologies for streaming data through the internet on web-browsers</p>
                         <p class="text-muted "><b>Supervisor:</b> <a href="https://iasbs.ac.ir/~pahlevani/ ">Dr. Peyman Pahlevani</a></p>
-                        <p class="text-muted "><b>GPA:</b> 18.76/20, total 210 credits completed, Rank (1/44)</p>
+                        <p class="text-muted "><b>GPA:</b> 18.76/20, Rank (1/44)</p>
                     </div>
-
-                    <div class="education group " id="education ">
-                        <h2 class="text-center "> Experience 🗃</h2>
-                        <div class="item ">
-
-
-
-                        <div class="item ">
-                          <div class="row ">
-                              <div class="col-md-6 ">
-                                  <h4>Publications📚</h4>
-                         
-                              </div>
-                              <div class="col-md-6 ">
-                               
-                              </div>
-                          </div>
-                          <h5>Improving the Decoding Speed of Packet Recovery in Network Coding</h5>
-                          <p class="text-muted "><b>Journal:</b> IEEE Communications Letters </p>
-                          <p class="text-muted "><b>Autors:</b> Hosein K. Nazari, K Ghassabi, P Pahlevani, DE Lucani </p>
-                          <p class="text-muted "><a href="https://ieeexplore.ieee.org/document/9226485 " class="btn btn-outline-dark ">Link</a> </p>
-                          
-                          <br>
-                          <h5>Fly-PRAC: Partial Packet Recovery Based on Algebraic Consistency of
-                            Dependent Packets for Random Linear Coded Transmission</h5>
-                          <p class="text-muted ">The manuscript has been submitted for review.</p>
-                          <p class="text-muted "><b>Autors:</b> Hosein K. Nazari and Peyman Pahlevani</p>
-          
-
-                      </div>
-
-                      
-                            <div class="row ">
-                                <div class="col-md-6 ">
-                                    <h4>Teaching Assistant🧑🏾‍🏫</h4>
-                                    <h4 class="organization ">The Institute for Advanced Studies in Basic Sciences</h4>
-                                </div>
-                                <div class="col-md-6 ">
-                                    <time class="period ">2014-2021</time>
-                                </div>
-                            </div>
-                            <p class="text-muted "> <b> Distributed Systems (Graduate Course)</b>,  Instructed by Dr. Peyman Pahlevani, 2020</p>
-                            <p class="text-muted "> <b> Coding Theory (Graduate Course)</b>,  Instructed by Dr. Peyman Pahlevani, 2019-2020</p>
-                            <p class="text-muted "><b>Advanced Computer Networks (Graduate Course)</b>,  Instructed by Dr. Peyman Pahlevani, 2019-2020</p>
-                            <p class="text-muted "><b>Network Lab</b>,  Instructed by Dr. Peyman Pahlevani, 2019</p>
-                            <p class="text-muted "><b> Computer Networks</b>,  Instructed by Dr. Peyman Pahlevani, 2018-2019 </p>
-                            <p class="text-muted "><b> Operating Systems</b>,  Instructed by Dr. Peyman Pahlevani, 2018 </p>
-                            <p class="text-muted "><b> Algorithm Design</b>,  Instructed by Dr.Mansoor Davoodi Monfared, 2017</p>
-                            <p class="text-muted "><b> Data Structure</b>,  Instructed by Dr.Mansoor Davoodi Monfared, 2017</p>
-                        </div>
-                        <div class="item ">
-                            <div class="row ">
-                                <div class="col-md-6 ">
-                                    <h4>Research Experience🧑🏾‍💻</h4>
-                                </div>
-                                <div class="col-md-6 ">
-                                    <time class="period ">2014-Present</time>
-                                </div>
-                            </div>
-                            <h5>Research Assistant and Software Developer at Sarve Saba Company (2020- 2022)</h5>
-                            <p class="text-muted "><b>Topic:</b> Developing energy-efficient IoT systems for online controlling and monitoring of HVAC systems.</p>
-                            <p class="text-muted "><b>Key responsibilities: </b>Developing an IoT system with Node js framework to control actuators,
-                                capture and analyze the sensor data, and provide real-time reports. </p>    
-                            <p class="text-muted "><b>Supervisor:</b> Dr. Peyman Pahlevani</p>
-                            <br>
-                            <h5>Wireless Communication Laboratory Research Intern (2018-2021)</h5>
-                            <p class="text-muted "><b>Topic:</b> Developing an application for monitoring and controlling the Heating,
-                                Ventilation, and Air Conditioning (HVAC) system for reducing electric power
-                                usage.</p>
-                            <p class="text-muted "><b>Key responsibilities: </b>Developing a server for monitoring and controlling the
-                                HVAC system; designing a web interface/dashboard for graphical data
-                                representation and reporting. </p>    
-                            <p class="text-muted "><b>Supervisor:</b> Dr. Peyman Pahlevani</p>
-                            <br>
-                            <h5>IoT Laboratory Research Intern (2015-2018)</h5><p class="text-muted "><b>Topic:</b> Developing different applications such as a web-based video chat using
-                            WebRTC technology for online classrooms.</p>
-                            <p class="text-muted "><b>Key responsibilities: </b>Back-end software developer and Scrum master.</p>    
-                            <p class="text-muted "><b>Supervisor:</b> Dr. Peyman Pahlevani and Dr. Reza Parsamehr</p>
-                            <br>
-                            <h5>Cloud Computing Laboratory Research Intern (2014-2015)</h5>
-                            <p class="text-muted "><b>Key responsibilities: </b>Providing a Persian language package for OpenStack cloud software.</p>    
-                            <p class="text-muted "><b>Supervisor:</b> Mohammad Ali Farajian</p>
-                        </div>
-
-
-                        <div class="item ">
-                            <div class="row ">
-                                <div class="col-md-6 ">
-                                    <h4>What's more</h4>
-
-                                </div>
-                                <div class="col-md-6 ">
-                                    <time class="period ">2014-Present</time>
-                                </div>
-                            </div>
-                            <p class="text-muted ">Ranked 1st and selected as the Exceptionally Talented Student in the undergraduate program, 2018</p> 
-                            <p class="text-muted "> IT representer of IASBS at research week firm in Zanjan, Fall 2018.</p>
-                            <p class="text-muted ">University representer at 5th exhibition of ELECOMP fair, Fall 2017</p>
-                            <p class="text-muted "> IT representer of IASBS at research week firm in Zanjan, Fall 2016</p>
-                            <p class="text-muted "> Winning the 2nd place in FinTech startups competition, Science and Technology Park, Zanjan, Winter 2016
-                          </p>
-                            <p class="text-muted ">A member of IASBS IoT team, final round team in “IoT Cup,” at Iran University of Science and Technology, Tehran, Summer 2015</p>
-                            <p class="text-muted ">Lecturer in IASBS CPU architecture seminar, Spring 2015</p>
-                            <p class="text-muted ">Lecturer in IASBS cloud computing seminar, Winter 2014 </p>
-
-                        </div>
-
-
-
-
-                    </div>
-                    <div class="group " id="skills ">
-                        <div class="row ">
-                            <div class="col-md-6 ">
-                                <div class="skills info-card ">
-                                    <h2>Technical Skills</h2>
-                                    <h3>Programming Language</h3>
-                                    <li>Python:&nbsp;<span class="badge badge-primary "> Intermediate</span></li>
-                                    <li>C++: &nbsp;<span class="badge badge-primary "> Intermediate</span></li>
-                                    <li>Javascript: &nbsp;<span class="badge badge-success "> Expert </span></li>
-
-                                    <h3>Simulator</h3>
-                                    <li>Kodo:&nbsp;<span class="badge badge-primary "> Intermediate</span></li>
-                                    <li>Fifi:&nbsp;<span class="badge badge-primary "> Intermediate</span></li>
-                                    <li>NS3: &nbsp;<span class="badge badge-secondary "> Elementry</span></li>
-
-                                    <h3>Other skills</h3>
-                                    <li>Project management (Scrum, Kanban, ...)</li>
-                                    <li>Graphic Design <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Photoshop & Illustrator)</li>
-                                    <li>Web-development<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Javascript, React, NodeJS, PHP, ...)</li>
-                                    <li> Fimilar with: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Database design (MySQL, MongoDB),<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Wireshark,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        source code management (Git),<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        LaTeX </li>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 ">
-                                <div class="contact-info info-card ">
-                                    <h2>Research Interests</h2>
-
-                                    <li> Distributed Systems</li>
-                                    <li> Internet of Things</li>
-                                    <li> Wireless Communication</li>
-                              
-                                    <br>
-                                    <h2>Language Skills</h2>
-                                    <li>Persian: &nbsp;<span class="badge badge-success "> Native</span></li>
-                                    <li>Azari:&nbsp;<span class="badge badge-success "> Native</span></li>
-                                    <li>English: &nbsp;<span class="badge badge-primary "> Proficient</span></li>
-                                    <br>
-                                    <h2>Soft skills</h2>
-                                    <li> Effective time management</li>
-                                    <li> Teamwork</li>
-                                    <li> Leadership</li>
-                                    <li>Adaptability and flexibility</li>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <br> <br>
-                        <div class="row ">
-
-                            <div class="col-md-12 ">
-                                <br>
-                                <center>
-                                    <h4>Further Skills</h4>
-                                </center>
-                                <center>
-                                    <p>I enjoy working as part of a team and have the ability to build productive relationships with colleagues. I can efficiently manage my time to fulfill deadlines and prioritize my tasks to maintain a decent study-life balance.</p>
-                                </center>
-                                <br>
-                            </div>
-
-                            <div class="col-md-12 ">
-                                <br>
-                            <center>
-                                <h4>Good Memories😊😇</h4>
-                            </center>
-                          
-
-                            <img class="img-fluid " src="./assets/img/wide.png "> <br><br>
-                            <center style="color: gray; ">Wireless Communication Group, 2018</center>
-                            <br>
-                            <img class="img-fluid " src="./assets/img/image5.png "> <br><br>
-                            <center style="color: gray; ">2nd place in Fintech competition, 2017</center>
-                            <br>
-                            </div>
-
-                           
-                            <div class="col-md-6 ">
-                                <img class="img-fluid " src="./assets/img/image1.png "><br><br>
-                                <center style="color: gray; ">Research week firm in Zanjan, Fall 2016</center>
-                                <br>
-                                <br>
-                                <img class="img-fluid " src="./assets/img/image2.png "><br><br>
-                                <center style="color: gray; "> 5th exhibition of ELECOMP fair, Fall 2017
-
-                                </center>
-                                <br><br>
-                            </div>
-
-                            <div class="col-md-6 ">
-                                <img class="img-fluid " src="./assets/img/image6.jpg "><br><br>
-                                <center style="color: gray; ">Wireless Communication Group, 2020</center>
-                                <br><br>
-                                <img class="img-fluid " src="./assets/img/image7.jpg "><br><br>
-                                <center style="color: gray; "> Dr. Pahlevani's Birthday, 2020 </center>
-                                <br><br>
-                            </div>
-
-
-
-                            <div class="col-md-12 ">
-
-                                <img class="img-fluid " src="./assets/img/iamge3.png "><br><br>
-                                <center style="color: gray; ">IoT Cup at Iran University of Science and Technology, Summer 2015</center>
-                                <br><br>
-
-
-                            <img class="img-fluid " src="./assets/img/peopleM_4.jpg "> <br><br>
-                            <center style="color: gray; ">Bachelor graduation ceremony, 2018</center>
-                                
-                            </div>
-        
-
-                        </div>
-                    </div>
-
-
-                    <div class="hobbies group " id="hobbies ">
-                        <h2 class="text-center ">Hobbies</h2>
-                        <p class="text-center text-muted ">I love reading books, particularly philosophical novels📖😍. I am keen on cycling🚴, traveling 🌄 , and photography is one of my favorite hobbies📷. Plus, I am a movie lover🎥😍.
-                        </p>
-                    </div>
-
-
-
-
 
                 </div>
+            </div>
+            <div class="education group " id="education " style=" border:1px solid rgb(255, 255, 255) ; background-color: rgba(255, 255, 255, 0.548); padding:20px;   border-radius: 10px;">
+                <h2 class="text-center "> Experience <img src="./assets/gif/monitor.gif" style="margin-left: 10px; width:50px;"> </h2>
+                <div class="item ">
+
+
+
+                    <div class="item ">
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <h4>Publications <img src="./assets/gif/publication.gif" style="margin-left: 10px; width:35px;"></h4>
+
+                            </div>
+                            <div class="col-md-6 ">
+
+                            </div>
+                        </div>
+                        <h5>Improving the Decoding Speed of Packet Recovery in Network Coding</h5>
+                        <p class="text-muted "><b>Journal:</b> IEEE Communications Letters </p>
+                        <p class="text-muted "><b>Autors:</b> Hosein K. Nazari, K Ghassabi, P Pahlevani, DE Lucani </p>
+                        <p class="text-muted "><a href="https://ieeexplore.ieee.org/document/9226485 " class="btn btn-outline-dark ">Link</a> </p>
+
+                        <br>
+                        <h5>Fly-PRAC: Partial Packet Recovery Based on Algebraic Consistency of Dependent Packets for Random Linear Coded Transmission</h5>
+                        <p class="text-muted ">The manuscript has been submitted for review.</p>
+                        <p class="text-muted "><b>Autors:</b> Hosein K. Nazari and Peyman Pahlevani</p>
+
+
+                    </div>
+
+
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <h4>Teaching Assistant<img src="./assets/gif/Teaching.gif" style="margin-left: 10px; width:30px;"></h4>
+                            <h4 class="organization ">The Institute for Advanced Studies in Basic Sciences</h4>
+                        </div>
+                        <div class="col-md-6 ">
+                            <time class="period ">2014-2021</time>
+                        </div>
+                    </div>
+                    <p class="text-muted "> <b> Distributed Systems (Graduate Course)</b>, Instructed by Dr. Peyman Pahlevani, 2020</p>
+                    <p class="text-muted "> <b> Coding Theory (Graduate Course)</b>, Instructed by Dr. Peyman Pahlevani, 2019-2020</p>
+                    <p class="text-muted "><b>Advanced Computer Networks (Graduate Course)</b>, Instructed by Dr. Peyman Pahlevani, 2019-2020</p>
+                    <p class="text-muted "><b>Network Lab</b>, Instructed by Dr. Peyman Pahlevani, 2019</p>
+                    <p class="text-muted "><b> Computer Networks</b>, Instructed by Dr. Peyman Pahlevani, 2018-2019 </p>
+                    <p class="text-muted "><b> Operating Systems</b>, Instructed by Dr. Peyman Pahlevani, 2018 </p>
+                    <p class="text-muted "><b> Algorithm Design</b>, Instructed by Dr.Mansoor Davoodi Monfared, 2017</p>
+                    <p class="text-muted "><b> Data Structure</b>, Instructed by Dr.Mansoor Davoodi Monfared, 2017</p>
+                </div>
+
+
+
+
+
+
+                <div class="item ">
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <h4>Research Experience<img src="./assets/gif/research.gif" style="margin-left: 10px; width:35px;"></h4>
+                        </div>
+                        <div class="col-md-6 ">
+
+                        </div>
+                    </div>
+
+                    <h5>Research Associate at TU Dresden - ComNets group</h5>
+                    <p class="text-muted "> Member of TICTEEC project</p>
+                    <p class="text-muted "><b>Key responsibilities: </b>Developing TSN translator on 5G Core Network. </p>
+                    <p class="text-muted "><b>Supervisor:</b> Prof. Frank Fitzek</p>
+                    <br>
+
+                    <h5>Research Assistant and Software Developer at Sarve Saba Company (2020- 2022)</h5>
+                    <p class="text-muted "><b>Topic:</b> Developing energy-efficient IoT systems for online controlling and monitoring of HVAC systems.</p>
+                    <p class="text-muted "><b>Key responsibilities: </b>Developing an IoT system with Node js framework to control actuators, capture and analyze the sensor data, and provide real-time reports. </p>
+                    <p class="text-muted "><b>Supervisor:</b> Dr. Peyman Pahlevani</p>
+                    <br>
+                    <h5>Wireless Communication Laboratory Research Intern (2018-2021)</h5>
+                    <p class="text-muted "><b>Topic:</b> Developing an application for monitoring and controlling the Heating, Ventilation, and Air Conditioning (HVAC) system for reducing electric power usage.
+                    </p>
+                    <p class="text-muted "><b>Key responsibilities: </b>Developing a server for monitoring and controlling the HVAC system; designing a web interface/dashboard for graphical data representation and reporting. </p>
+                    <p class="text-muted "><b>Supervisor:</b> Dr. Peyman Pahlevani</p>
+                    <br>
+                    <h5>IoT Laboratory Research Intern (2015-2018)</h5>
+                    <p class="text-muted "><b>Topic:</b> Developing different applications such as a web-based video chat using WebRTC technology for online classrooms.</p>
+                    <p class="text-muted "><b>Key responsibilities: </b>Back-end software developer and Scrum master.</p>
+                    <p class="text-muted "><b>Supervisor:</b> Dr. Peyman Pahlevani and Dr. Reza Parsamehr</p>
+                    <br>
+                    <h5>Cloud Computing Laboratory Research Intern (2014-2015)</h5>
+                    <p class="text-muted "><b>Key responsibilities: </b>Providing a Persian language package for OpenStack cloud software.</p>
+                    <p class="text-muted "><b>Supervisor:</b> Mohammad Ali Farajian</p>
+                </div>
+
+
+                <div class="item ">
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <h4>What's more</h4>
+
+                        </div>
+                        <div class="col-md-6 ">
+                            <time class="period ">2014-Present</time>
+                        </div>
+                    </div>
+                    <p class="text-muted ">Ranked 1st and selected as the Exceptionally Talented Student in the undergraduate program, 2018</p>
+                    <p class="text-muted "> IT representer of IASBS at research week firm in Zanjan, Fall 2018.</p>
+                    <p class="text-muted ">University representer at 5th exhibition of ELECOMP fair, Fall 2017</p>
+                    <p class="text-muted "> IT representer of IASBS at research week firm in Zanjan, Fall 2016</p>
+                    <p class="text-muted "> Winning the 2nd place in FinTech startups competition, Science and Technology Park, Zanjan, Winter 2016
+                    </p>
+                    <p class="text-muted ">A member of IASBS IoT team, final round team in “IoT Cup,” at Iran University of Science and Technology, Tehran, Summer 2015</p>
+                    <p class="text-muted ">Lecturer in IASBS CPU architecture seminar, Spring 2015</p>
+                    <p class="text-muted ">Lecturer in IASBS cloud computing seminar, Winter 2014 </p>
+
+                </div>
+
+
+
+
+            </div>
+            <div class="group " id="skills " style=" border:1px solid rgb(255, 255, 255) ; background-color: rgba(255, 255, 255, 0.548); padding:20px;   border-radius: 10px;">
+                <div class="row ">
+
+                    <div class="col-md-12" style="margin-top:-40px;">
+
+                        <div class="skills info-card ">
+
+                            <center>
+                                <img src="./assets/gif/techskill.gif" style=" margin-left: 10px; width:35px; ">
+                                <h2>Technical Skills</h2>
+                            </center>
+
+                            <h3>Programming Language</h3>
+                            <li>Python:&nbsp;<span class="badge badge-primary "> Intermediate</span></li>
+                            <li>C++: &nbsp;<span class="badge badge-primary "> Intermediate</span></li>
+                            <li>Javascript: &nbsp;<span class="badge badge-success "> Expert </span></li>
+
+                            <h3>Simulator</h3>
+                            <li>Kodo:&nbsp;<span class="badge badge-primary "> Intermediate</span></li>
+                            <li>Fifi:&nbsp;<span class="badge badge-primary "> Intermediate</span></li>
+                            <li>NS3: &nbsp;<span class="badge badge-secondary "> Elementry</span></li>
+
+                            <h3>Familiar With: </h3>
+                            <li>Project management (Scrum, Kanban, ...)</li>
+                            <li>Graphic Design (Photoshop & Illustrator)</li>
+                            <li>Web-development(Javascript, React, NodeJS, PHP, ...)</li>
+                            <li> Database design (MySQL, MongoDB), Wireshark,source code management (Git),LaTeX </li>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 contact-info info-card ">
+
+                        <center>
+                            <img src="./assets/gif/softskill.gif" style=" margin-left: 10px; width:35px; ">
+                            <br>
+                            <br>
+                            <h2>Intrest </h2>
+                        </center>
+
+
+                        <li> TSN Networking</li>
+                        <li> Communication Sys.</li>
+                        <li> Internet of Things</li>
+                        <li> Network Coding</li>
+
+                    </div>
+
+                    <div class="col-md-4 contact-info info-card ">
+                        <center>
+                            <img src="./assets/gif/soft.gif" style=" margin-left: 10px; width:35px; ">
+                            <br>
+                            <br>
+                            <h2>Soft Skills </h2>
+                        </center>
+                        <li> Time management</li>
+                        <li> Teamwork</li>
+                        <li> Leadership</li>
+                        <li> Planning</li>
+
+                    </div>
+
+                    <div class="col-md-4 contact-info info-card ">
+                        <center>
+                            <img src="./assets/gif/language.gif" style=" margin-left: 10px; width:35px; ">
+                            <br>
+                            <br>
+                            <h2>Language Skills </h2>
+                        </center>
+
+
+                        <li>Persian: &nbsp;<span class="badge badge-success "> Native</span></li>
+                        <li>Azari:&nbsp;<span class="badge badge-success "> Native</span></li>
+                        <li>English: &nbsp;<span class="badge badge-primary "> Proficient</span></li>
+                        <li>German: &nbsp;<span class="badge "> Beginner</span></li>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 ">
+                    <br>
+                    <center>
+                        <h4>Good Memories😊😇</h4>
+                    </center>
+
+
+                    <img class="img-fluid " src="./assets/img/wide.png "> <br><br>
+                    <center style="color: gray; ">Wireless Communication Group, 2018</center>
+                    <br>
+                    <img class="img-fluid " src="./assets/img/image5.png "> <br><br>
+                    <center style="color: gray; ">2nd place in Fintech competition, 2017</center>
+                    <br>
+                </div>
+
+
+                <div class="col-md-12 ">
+                    <img class="img-fluid " src="./assets/img/image1.png "><br><br>
+                    <center style="color: gray; ">Research week firm in Zanjan, Fall 2016</center>
+
+                </div>
+
+
+
+
+
+                <div class="col-md-12 ">
+
+                    <img class="img-fluid " src="./assets/img/iamge3.png "><br><br>
+                    <center style="color: gray; ">IoT Cup at Iran University of Science and Technology, Summer 2015</center>
+                    <br><br>
+
+
+                    <img class="img-fluid " src="./assets/img/peopleM_4.jpg "> <br><br>
+                    <center style="color: gray; ">Bachelor graduation ceremony, 2018</center>
+
+                </div>
+
+
+            </div>
+            </div>
+
+
+
+
+            </div>
         </section>
         <footer class="page-footer ">
             <div class="container ">
-                <div class="social-icons ">
-                    :)
-                </div>
+                <p style="font-size:12px; ">icons8
+                    <a href="https://icons8.com "></a>
+                </p>
+
+
             </div>
         </footer>
     </main>
